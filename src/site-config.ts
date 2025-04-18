@@ -1,34 +1,34 @@
 export const siteConfig = {
-  author: 'Kieran Wang',
-  title: 'Vitesse theme for Astro',
-  subtitle: 'Vitesse theme for Astro, supports Vue and UnoCSS.',
-  description: 'A Minimal, SEO-friendly portfolio and blog theme for Astro.',
+  author: 'Shad Mirza',
+  title: 'Crafting Full-Stack Solutions That Matter',
+  subtitle: 'Engineering Value Beyond Code',
+  description: 'Drawing from experience across modern web technologies, cloud platforms, and system architecture, I build end-to-end solutions that create lasting value. My passion for learning and natural curiosity drive me to stay at the forefront of technological innovation.',
   image: {
     src: '/hero.jpg',
     alt: 'Website Main Image',
   },
-  email: 'kieranwme@gmail.com',
+  email: 'iamshadmirza@gmail.com',
   socialLinks: [
     {
       text: 'GitHub',
-      href: 'https://github.com/kieranwv/astro-theme-vitesse',
+      href: 'https://github.com/iamshadmirza',
       icon: 'i-simple-icons-github',
       header: 'i-ri-github-line',
     },
     {
       text: 'Twitter',
-      href: '',
+      href: 'https://x.com/iamshadmirza',
       icon: 'i-simple-icons-x',
       header: 'i-ri-twitter-x-line',
     },
     {
       text: 'Linkedin',
-      href: '',
+      href: 'https://linkedin.com/in/iamshadmirza',
       icon: 'i-simple-icons-linkedin',
     },
     {
       text: 'Instagram',
-      href: '',
+      href: 'https://instagram.com/iamshadmirza',
       icon: 'i-simple-icons-instagram',
     },
     {
