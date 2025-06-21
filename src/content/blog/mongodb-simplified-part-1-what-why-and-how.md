@@ -4,6 +4,7 @@ date: 2020-08-07
 slug: mongodb-simplified-part-1-what-why-and-how
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1596806654528/jYR0ZCjcF.png
 tags: nosql, javascript, mongodb, nodejs, 2articles1week
+canonical: https://iamshadmirza.com/mongodb-simplified-part-1-what-why-and-how
 ---
 
 This is the first article of series **MongoDB Simplified** which will cover all the basics of MongoDB. I will try to keep things as simple as possible.

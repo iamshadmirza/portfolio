@@ -4,6 +4,7 @@ date: 2019-08-22
 slug: react-native-reward-referrals
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1566439070655/-yLAvsXCa.png
 tags: javascript, tutorials, firebase, react-native, beginners
+canonical: https://iamshadmirza.com/react-native-reward-referrals
 ---
 
 This is the third article of series [*React Native Deep Linking Simplified*](https://iamshadmirza.hashnode.dev/react-native-deep-linking-simplified-cjzj6qf8900003ss1zv178dm9) and in the first two blogs, we learned how to add Deep Link in our app and how to handle it gracefully.

@@ -3,6 +3,7 @@ title: "From Nothing to Hashnode: My Tech Journey"
 date: 2020-12-31
 slug: from-nothing-to-hashnode-my-tech-journey
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1609407724151/yUyHGWHji.png
+canonical: https://iamshadmirza.com/from-nothing-to-hashnode-my-tech-journey
 ---
 
 Hi everyone, it's almost the end of the year 2020 and since everyone is sharing how this year went for them, I thought of doing the same. This is my coding journey from nothing to joining [Hashnode Team](https://hashnode.com/about). It's going to be a long ride so hold tight.

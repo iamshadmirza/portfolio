@@ -39,6 +39,7 @@ const blog = defineCollection({
     tag: z.string().optional().optional(),
     redirect: z.string().optional(),
     video: z.boolean().default(false).optional(),
+    canonical: z.string().optional(),
   }),
 })
 

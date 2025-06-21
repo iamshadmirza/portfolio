@@ -18,7 +18,7 @@ export async function getStaticPaths() {
 type Props = { post: CollectionPosts }
 
 const { post } = Astro.props
-const { title, cover, description, date, duration, tag } = post.data
+const { title, cover, description, date, duration, tag, canonical } = post.data
 
 const { Content } = await post.render()
 
@@ -27,7 +27,7 @@ function getDate(date: string) {
 }
 ---
 
-<BaseLayout title={title} description={description} pageType="article">
+<BaseLayout title={title} description={description} pageType="article" canonical={canonical}>
   <article class="prose">
     <h1>{title}</h1>
     <p op-50>

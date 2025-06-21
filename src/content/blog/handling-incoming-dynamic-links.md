@@ -4,6 +4,7 @@ date: 2019-08-21
 slug: handling-incoming-dynamic-links
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1566357473515/yuOkOgkrG.png
 tags: javascript, firebase, react-native, beginners
+canonical: https://iamshadmirza.com/handling-incoming-dynamic-links
 ---
 
 This is Part 2 of the series React Native Deep Linking Simplified and in [Part 1](https://iamshadmirza.hashnode.dev/react-native-deep-linking-simplified-cjzj6qf8900003ss1zv178dm9) we learned *How to add Deep Links*.

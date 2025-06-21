@@ -3,6 +3,7 @@ title: "A Definitive Guide to React Native Testing Library"
 date: 2021-04-20
 slug: a-definitive-guide-to-react-native-testing-library
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1618895882464/5ZvgtB3OF.png
+canonical: https://iamshadmirza.com/a-definitive-guide-to-react-native-testing-library
 ---
 
 This guide will walk you through React Native testing using **React Native Testing Library**. We will cover why we would want to use this library, the benefits, how to write tests, and all sorts of stuff while building an exciting game app. Let's start 🚀

@@ -4,6 +4,7 @@ date: 2021-03-01
 slug: 5-things-to-challenge-on-international-womens-day-2021
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1614598975233/Rfp520QgI.jpeg
 tags: general-advice, choosetochallenge, iwd2021
+canonical: https://iamshadmirza.com/5-things-to-challenge-on-international-womens-day-2021
 ---
 
 Hello everyone, It's the week of **International Women's Day (IWD)**, and I wanted to share my thoughts on how we can make tech a better place to work for women. This year's theme is **#ChooseToChallenge,** and this article will be all about calling out things that we can't accept. Let's start 🚀

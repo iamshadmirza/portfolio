@@ -4,6 +4,7 @@ date: 2020-08-30
 slug: 15-tips-for-mental-health-and-to-grow-as-a-developer
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1598809947896/xs44Xe2l8.png
 tags: productivity, developer, general-advice, mental-health, 2articles1week
+canonical: https://iamshadmirza.com/15-tips-for-mental-health-and-to-grow-as-a-developer
 ---
 
 Hello everyone, I will be sharing some tips that have helped me in the past to grow as a developer and keep my stress level low. I usually try to do a lot in a limited amount of time and often feel overwhelmed. These are the things that I have tried and found helpful.

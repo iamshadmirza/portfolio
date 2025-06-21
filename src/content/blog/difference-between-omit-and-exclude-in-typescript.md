@@ -4,6 +4,7 @@ date: 2021-06-01
 slug: difference-between-omit-and-exclude-in-typescript
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1622547288083/xA-KD6hMZ.png
 tags: web-development, typescript
+canonical: https://iamshadmirza.com/difference-between-omit-and-exclude-in-typescript
 ---
 
 I was trying to use `Omit` utility type to create a mapped type and it was giving me an error. Please consider the example below.

@@ -4,6 +4,7 @@ date: 2020-08-30
 slug: 5-common-mistakes-to-avoid-in-html
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1598809849449/ouCF-w_TZ.png
 tags: programming, web-development, html5, beginners, 2articles1week
+canonical: https://iamshadmirza.com/5-common-mistakes-to-avoid-in-html
 ---
 
 Hello, amazing people. This article will cover few of the common mistakes that we often do while writing HTML. Let's get straight to it.
@@ -66,7 +67,7 @@ If extra space is desired, use CSS properties like `margin` to create the effect
 
 Aside was introduced with HTML5 and represents content that is not directly connected with the main content. Asides are stand-alone, non-essential as part of an article but when used correctly it can be an extra level of information for your content. Example sidebars or call-out boxes.
 
-Do not use aside to tag the parenthesized test as that is part of the main content. Don’t try to force content into an `<aside>` if it shouldn't be there.
+Do not use aside to tag the parenthesized test as that is part of the main content. Don't try to force content into an `<aside>` if it shouldn't be there.
 
 Example:
 

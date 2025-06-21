@@ -4,6 +4,7 @@ date: 2020-02-06
 slug: introducing-react-native-design-system-rnds
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1580930919749/TD58yP9Bv.png
 tags: react-native, reactjs, mobile-development, javascript-library
+canonical: https://iamshadmirza.com/introducing-react-native-design-system-rnds
 ---
 
 Hey guys, I have been working on a library for a while now. It's a Design System around React Native and this blog answers some of the common questions that you might stumble while going through the [repo](https://github.com/iamshadmirza/react-native-design-system). So let's start 😁.

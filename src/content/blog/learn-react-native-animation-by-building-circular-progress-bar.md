@@ -4,6 +4,7 @@ date: 2019-12-03
 slug: learn-react-native-animation-by-building-circular-progress-bar
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1587888194461/9QBiT0bvB.png
 tags: javascript, react-native, animation, reactjs, css-animation
+canonical: https://iamshadmirza.com/learn-react-native-animation-by-building-circular-progress-bar
 ---
 
 Today, we are going to build a circular progress bar using the `Animated` library of react native with the help of *three semicircles*. Let's understand the concept first then we will dive into coding.

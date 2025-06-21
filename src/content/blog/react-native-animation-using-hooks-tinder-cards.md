@@ -4,6 +4,7 @@ date: 2020-11-10
 slug: react-native-animation-using-hooks-tinder-cards
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1604983365510/6utJN5Gyf.png
 tags: react-native, reactjs, beginners, css-animation, react-hook-1
+canonical: https://iamshadmirza.com/react-native-animation-using-hooks-tinder-cards
 ---
 
 Hello everyone, We are back with some React Native Animation, and this time we are building **Tinder Cards using Hooks**. We will build a deck of cards featuring cute animals where you can swipe left or right. And finally, we will decouple the whole logic into a reusable hook. Let's start 🚀

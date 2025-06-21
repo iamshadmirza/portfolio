@@ -5,6 +5,7 @@ date: 2023-03-16
 slug: changing-teams-in-a-tech-company-the-struggle-is-real
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1678950633006/5ebdd1fc-04ec-446d-aa85-5063c9e81607.png
 tags: startups, programming
+canonical: https://iamshadmirza.com/changing-teams-in-a-tech-company-the-struggle-is-real
 ---
 
 ## Introduction

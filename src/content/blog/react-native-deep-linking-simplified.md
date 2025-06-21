@@ -4,6 +4,7 @@ date: 2019-08-20
 slug: react-native-deep-linking-simplified
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1566266553493/BpifIX_qr.png
 tags: javascript, react-native, beginners, explain-like-i-am-five
+canonical: https://iamshadmirza.com/react-native-deep-linking-simplified
 ---
 
 Before we go through the **HOW** part of this blog where we will be adding *Deep Linking* in our React Native app, Let's first go through the **WHAT** and **WHY** to better grasp the concept. Let's start.
@@ -102,7 +103,7 @@ You can use multiple `<data>` tags inside `intent-filter` so something like this
 <data android:scheme="app" android:host="deeplink" />
 <data android:scheme="https" android:host="www.deeplinkdemo.com" />
 ```
->The URIs app://deeplink and “https://www.deeplinkdemo.com” both resolve to this activity.
+>The URIs app://deeplink and "https://www.deeplinkdemo.com" both resolve to this activity.
 
 You can also create a HTML file with these two links like this and *test*:
 ```html

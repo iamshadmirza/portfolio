@@ -4,6 +4,7 @@ date: 2020-04-26
 slug: how-i-set-up-notion-for-productive-sanity
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1587794955865/fYaVEhxwy.png
 tags: productivity, guide, project-management
+canonical: https://iamshadmirza.com/how-i-set-up-notion-for-productive-sanity
 ---
 
 Hey everyone, today I'm going to give a walkthrough of how I set up my Notion workspace and organize my ideas. It will be a step-by-step guide and I hope this helps you. Let's start with a question.

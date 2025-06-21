@@ -4,6 +4,7 @@ date: 2019-07-01
 slug: websocket-simplified
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1561960459435/L2OABeTeK.jpeg
 tags: websockets, javascript, webdev, beginners, explain-like-i-am-five
+canonical: https://iamshadmirza.com/websocket-simplified
 ---
 
 This is the first post of the WebSocket Series I will be writing on and the goal is to explain things in the simplest way possible. Let's jump right into it.
@@ -60,8 +61,8 @@ What to do now? It looks like things are getting out of hand. Let's reach back t
 As you can see, Polling and Long-Polling are both quite expensive options in order to emulate real-time communication between Client and Server.
 >This performance bottleneck is the reason why you would want to use WebSocket instead.
 
-WebSockets don’t need you to send a request in order to respond. They allow *bidirectional* data flow so you just have to listen for any data.
->You can just listen to the server and it will send you a message when it’s available.
+WebSockets don't need you to send a request in order to respond. They allow *bidirectional* data flow so you just have to listen for any data.
+>You can just listen to the server and it will send you a message when it's available.
 
 Let's look at the performance side of the WebSocket.
 ### Resource Consumption

@@ -4,6 +4,7 @@ date: 2020-08-23
 slug: how-to-write-blog-without-motivation
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1598160828898/YfLm0kiOJ.png
 tags: blogging, productivity, beginners, general-advice, 2articles1week
+canonical: https://iamshadmirza.com/how-to-write-blog-without-motivation
 ---
 
 Hey folks, I am going to share my approach to writing blogs with the least effort. Sometimes, I don't have much will power to write a lengthy blog and the thought of writing 2000 words just puts me into procrastination mode. This is what helps me make my approach a little easier. Let's start.

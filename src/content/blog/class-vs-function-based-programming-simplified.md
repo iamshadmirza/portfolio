@@ -4,6 +4,7 @@ date: 2019-06-01
 slug: class-vs-function-based-programming-simplified
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1559366757489/NYKCIVJtr.jpeg
 tags: programming-blogs, programming, classes, functional-programming, explain-like-i-am-five
+canonical: https://iamshadmirza.com/class-vs-function-based-programming-simplified
 ---
 
 This question is often asked in interviews that *What do you understand by functional programming or Object Oriented Programming?* and this blog is going to answer that but in a more simplified and beginner friendly manner.
@@ -12,7 +13,7 @@ I'll be sharing links for some in-depth read about these two topics at the end b
 ## Why the debate?
 If you are a developer who is working or going to work on a huge application with a few thousand lines of code, you will instantly realize that you need to manage your code effectively to make it scalable and bug-free or you will be lost.
 And for that, you have to pick one of the programming paradigms.
-> A programming paradigm is a style or “way” of programming to approach a problem and design a solution.
+> A programming paradigm is a style or "way" of programming to approach a problem and design a solution.
 
 We will be talking about the two most talked paradigms in JavaScript.
 * Object Oriented Programming / Class based Programming.
@@ -70,14 +71,14 @@ Another concept which functional programming follows is *Immutability*.
 Definition of **immutable** is
 : *not capable of or susceptible to change.*
 In functional programming, we treat data as immutable.
->When data is immutable, its state cannot change after it’s created. If you want to change an immutable object, you can’t.
+>When data is immutable, its state cannot change after it's created. If you want to change an immutable object, you can't.
 
 Instead what you can do is create a new object with the new value and replace it with the older one.
 So, our function is totally dependent on parameters and the data passed as parameter is *immutable* i.e, it cannot be changed. By this what we can conclude is:-
 * Given a parameter A → the function will always  return a value B
 * Given a parameter C → the function will always return a value D
 
-The code’s definitely easier to test and thus it is better protected against bugs.
+The code's definitely easier to test and thus it is better protected against bugs.
 Moreover, it is easier to understand and because it does just one thing, it is easier to maintain.
 Sometimes, we have to do some calculations in our application which require us to treat functions as entities.
 >The idea is to treat functions as values and pass functions like data. This way we can combine different functions to create new functions with new behavior.
@@ -88,7 +89,7 @@ When we talk about higher-order functions, we mean a function that either:
 * takes one or more functions as arguments, or
 * returns a function as its result
 
-You’ve probably already heard about filter, map, and reduce. Let's take a look at these:-
+You've probably already heard about filter, map, and reduce. Let's take a look at these:-
 #### Filter
 Given a collection, we want to filter by an attribute. The filter function expects a true or false value to determine if the element should or should not be included in the result collection.
 **Return value:** new array consisting only of items that passed a condition.
@@ -190,7 +191,7 @@ Let's break the code according to the things we have just learnt.
 * Fourth and Fifth line of code is adding the product into the basket by calling the function with quantity and name as parameters.
 * At the end we are printing what's in the basket by calling `printShoppingInfo()` function defined in `Basket()` class.
 
-The benefit here is you can almost read the code like real English sentences and you can easily tell what’s going on.
+The benefit here is you can almost read the code like real English sentences and you can easily tell what's going on.
 Let's take a better look at classes we just used:-
 1. Product class
 ```
@@ -233,10 +234,10 @@ class Basket {
 >The `constructor` inside each class is a function which executes each time an object is instantiated.
 
 **Product** has the parameters _name and _price. Each new object stores these values inside it.
-Class **Basket** doesn’t require any arguments to create a new object. Instantiating a new Basket object simply generates an empty list of products that the program can fill afterward.
+Class **Basket** doesn't require any arguments to create a new object. Instantiating a new Basket object simply generates an empty list of products that the program can fill afterward.
 Let's move on to the other concepts we left earlier.
 ### Encapsulation
-In simple words, Encapsulation prevents access to data except through the object’s functions.
+In simple words, Encapsulation prevents access to data except through the object's functions.
 >It is a protective shield that prevents the data from being accessed by the code outside this shield.
 
 The code we wrote earlier has one drawback (I wrote like that on purpose). By adding the *this* keyword, we have given full access to the properties from the outside. So everybody could access and modify it:
@@ -245,7 +246,7 @@ const bread = new Product('bread', 1);
 bread.price = -10;
 ```
 This is something you would want to avoid because prices less than zero doesn't make sense, does it?
-Objects should have exclusive control over their data. In other words, the objects “encapsulate” their data and prevent other objects from accessing the data directly. The only way to access the data is indirect via the functions written into the objects.
+Objects should have exclusive control over their data. In other words, the objects "encapsulate" their data and prevent other objects from accessing the data directly. The only way to access the data is indirect via the functions written into the objects.
 The code will look like this now:-
 ```
 function Product(_name, _price) {

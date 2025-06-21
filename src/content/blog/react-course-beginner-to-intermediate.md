@@ -4,6 +4,7 @@ date: 2020-08-06
 slug: react-course-beginner-to-intermediate
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1596699163582/k8L0AwiBT.png
 tags: web-development, reactjs, javascript-framework, redux, 2articles1week
+canonical: https://iamshadmirza.com/react-course-beginner-to-intermediate
 ---
 
 Hey everyone, I have been writing a React course for soshace.com for a while and it's finally finished. There are 15 lessons in total and my contributions begin from Lesson 4 all the way to Lesson 15. Here are the list 14 articles that consist of it:

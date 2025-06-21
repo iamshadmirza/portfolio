@@ -4,6 +4,7 @@ date: 2020-08-14
 slug: multitasking-is-a-myth-heres-why
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1597392926379/tj0OpuRll.png
 tags: productivity, general-advice, 2articles1week
+canonical: https://iamshadmirza.com/multitasking-is-a-myth-heres-why
 ---
 
 When was the last time you were multitasking and felt productive but a little tensed? Always? There is a reason for it and we are just going to discuss that. But first...

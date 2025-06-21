@@ -4,6 +4,7 @@ date: 2020-08-13
 slug: mongodb-simplified-part-2-how-to-setup
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1597227374224/MEuW-tZU6.png
 tags: nosql, mongodb, databases, beginners, 2articles1week
+canonical: https://iamshadmirza.com/mongodb-simplified-part-2-how-to-setup
 ---
 
 Hello amazing people, we are back with Part 2 of the MongoDB Simplified series. In the [last article](https://iamshadmirza.com/mongodb-simplified-part-1-what-why-and-how-ckdk9gmqv031cz2s12bqz8r1c), we learned about MongoDB and NoSQL in general, now it's time to set up and get it running on our machine. Let's start!

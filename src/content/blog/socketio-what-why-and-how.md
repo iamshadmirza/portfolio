@@ -4,6 +4,7 @@ date: 2019-07-20
 slug: socketio-what-why-and-how
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1563603948690/CRJ5GoTWJ.png
 tags: socketio, javascript, webdev, beginners, nodejs-cjclz8y2l000dtpwt144m8ti8
+canonical: https://iamshadmirza.com/socketio-what-why-and-how
 ---
 
 This is the second blog post in continuation of the series **WebSocket Simplified**. If you haven't read the first part, check it out [here](https://iamshadmirza.hashnode.dev/websocket-simplified-cjxjzcu0m002i3hs1eewt2p80). I insist that you go through the first part to understand this one better. Again, the goal is to keep things as simple as possible. So I'm going to approach this topic a little differently. Let's start.

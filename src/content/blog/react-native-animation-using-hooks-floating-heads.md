@@ -4,6 +4,7 @@ date: 2020-11-02
 slug: react-native-animation-using-hooks-floating-heads
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1604309490801/zwHnA0k7o.png
 tags: javascript, react-native, reactjs, beginners, css-animation
+canonical: https://iamshadmirza.com/react-native-animation-using-hooks-floating-heads
 ---
 
 Hello everyone 👋, we are back with some React Native Animation. We will build Facebook messenger's floating heads using Animated library and Hooks 🙌. It's going to be fun so hold tight.

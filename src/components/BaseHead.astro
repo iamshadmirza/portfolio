@@ -9,9 +9,10 @@ interface Props {
   description?: string
   image?: { src: string; alt?: string }
   pageType?: 'website' | 'article'
+  canonical?: string
 }
 
-const { description = '', image = siteConfig.image, pageType = 'website' } = Astro.props
+const { description = '', image = siteConfig.image, pageType = 'website', canonical } = Astro.props
 
 const title = [Astro.props.title, siteConfig.title].filter(Boolean).join(' | ')
 
@@ -22,7 +23,7 @@ const resolvedImage = image?.src
     }
   : undefined
 
-const canonicalURL = new URL(Astro.request.url, Astro.site)
+const canonicalURL = canonical || new URL(Astro.request.url, Astro.site).toString()
 
 function formatCanonicalURL(url: string | URL) {
   const path = url.toString()

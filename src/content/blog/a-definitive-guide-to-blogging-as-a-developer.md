@@ -4,6 +4,7 @@ date: 2020-12-09
 slug: a-definitive-guide-to-blogging-as-a-developer
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1607501854608/oCKCbFIRj.png
 tags: programming-blogs, programming, beginners, general-advice, technical-writing-1
+canonical: https://iamshadmirza.com/a-definitive-guide-to-blogging-as-a-developer
 ---
 
 Hey everyone, I recently gave a talk at [DSC KIET](https://twitter.com/dsckiet) about technical blogging. We talked about Why you should blog, what are the prerequisites, how to start blogging, choosing the topics, and structuring your blog for better readability, etc.
