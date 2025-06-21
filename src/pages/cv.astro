@@ -1,0 +1,270 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro'
+import siteConfig from '@/site-config'
+---
+
+<BaseLayout title="CV - Shad Mirza" description="Professional CV and resume of Shad Mirza - Senior Software Engineer">
+  <article class="prose max-w-4xl">
+    <!-- Header Section -->
+    <div class="text-center mb-12">
+      <h1 class="text-4xl font-bold mb-4">Shad Mirza</h1>
+      <p class="text-xl text-gray-600 dark:text-gray-400 mb-2">Senior Software Engineer</p>
+      <p class="text-lg text-gray-500 dark:text-gray-500 mb-4">Full-Stack Development & AWS Specialist</p>
+
+      <!-- Contact Information -->
+      <div class="flex flex-wrap justify-center gap-6 text-sm">
+        <a href={`mailto:${siteConfig.email}`} class="flex items-center gap-2 hover:text-blue-600">
+          <i class="i-ri-mail-line"></i>
+          {siteConfig.email}
+        </a>
+        <a href="tel:+91-9721442124" class="flex items-center gap-2 hover:text-blue-600">
+          <i class="i-ri-phone-line"></i>
+          +91-9721442124
+        </a>
+        <a href="https://github.com/iamshadmirza" target="_blank" class="flex items-center gap-2 hover:text-blue-600">
+          <i class="i-ri-github-line"></i>
+          github.com/iamshadmirza
+        </a>
+        <a
+          href="https://www.linkedin.com/in/iamshadmirza/"
+          target="_blank"
+          class="flex items-center gap-2 hover:text-blue-600"
+        >
+          <i class="i-ri-linkedin-line"></i>
+          linkedin.com/in/iamshadmirza
+        </a>
+        <a href="https://x.com/iamshadmirza" target="_blank" class="flex items-center gap-2 hover:text-blue-600">
+          <i class="i-ri-twitter-x-line"></i>
+          x.com/iamshadmirza
+        </a>
+      </div>
+    </div>
+
+    <!-- Summary -->
+    <section class="mb-8">
+      <h2 class="text-2xl font-bold mb-4 border-b border-gray-300 dark:border-gray-600 pb-2 !mt-0 !mb-4">Summary</h2>
+      <p class="text-lg leading-relaxed">
+        Full-stack engineer with 6.5 years of experience across high-scale systems, mobile/web platforms, and serverless
+        cloud infrastructure. Specialized in AWS, GraphQL, and React/React Native. Proven track record of building
+        scalable systems at Hashnode (130M+ monthly API requests, 160K+ MAUs). Strong focus on code quality, CI/CD,
+        mentoring, and cross-functional collaboration.
+      </p>
+    </section>
+
+    <!-- Core Skills -->
+    <section class="mb-8">
+      <h2 class="text-2xl font-bold mb-6 border-b border-gray-300 dark:border-gray-600 pb-2 !mt-0 !mb-6">
+        Core Skills
+      </h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div>
+          <h3 class="text-lg font-semibold mb-3 !mt-0 !mb-3">Frontend Development</h3>
+          <ul class="list-disc list-inside space-y-1 text-gray-700 dark:text-gray-300">
+            <li>React.js & React Native</li>
+            <li>TypeScript & JavaScript</li>
+            <li>Next.js & Vue.js</li>
+            <li>Redux, MobX, Context API</li>
+            <li>TailwindCSS, Styled Components</li>
+            <li>HTML5, CSS3, SASS</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="text-lg font-semibold mb-3 !mt-0 !mb-3">Backend & APIs</h3>
+          <ul class="list-disc list-inside space-y-1 text-gray-700 dark:text-gray-300">
+            <li>Node.js & Express.js</li>
+            <li>GraphQL & REST APIs</li>
+            <li>MongoDB, Redis, PostgreSQL</li>
+            <li>Serverless Architecture</li>
+            <li>Microservices</li>
+            <li>WebSocket & Socket.io</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="text-lg font-semibold mb-3 !mt-0 !mb-3">Cloud & Infrastructure</h3>
+          <ul class="list-disc list-inside space-y-1 text-gray-700 dark:text-gray-300">
+            <li>AWS (Lambda, API Gateway, Step Functions)</li>
+            <li>AWS (EventBridge, S3, EC2, SQS, SNS)</li>
+            <li>Infrastructure as Code (SST, AWS CDK)</li>
+            <li>CI/CD Pipelines</li>
+            <li>Docker & Kubernetes</li>
+            <li>Serverless Framework</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="text-lg font-semibold mb-3 !mt-0 !mb-3">Testing & Tools</h3>
+          <ul class="list-disc list-inside space-y-1 text-gray-700 dark:text-gray-300">
+            <li>Jest, React Testing Library</li>
+            <li>Cypress, Playwright</li>
+            <li>TDD & BDD Practices</li>
+            <li>Git & GitHub</li>
+            <li>VS Code, WebStorm</li>
+            <li>Postman, Insomnia</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="mb-8">
+      <h2 class="text-2xl font-bold mb-6 border-b border-gray-300 dark:border-gray-600 pb-2 !mt-0 !mb-6">
+        Professional Experience
+      </h2>
+      
+      <!-- Hashnode Experience -->
+      <div class="mb-8 pb-6 border-b border-gray-300 dark:border-gray-600">
+        <div class="flex justify-between items-center mb-2">
+          <h3 class="text-xl font-semibold !mt-0 !mb-0">Hashnode (Remote)</h3>
+          <span class="text-base text-gray-500">Feb 2020 – Present</span>
+        </div>
+        <p class="text-lg text-blue-600 dark:text-blue-400 mb-4 !mt-0 !mb-4">Bengaluru, Karnataka</p>
+
+        <!-- Platform Engineer -->
+        <div class="mb-4">
+          <h4 class="text-lg font-semibold mb-2 !mt-0 !mb-2">Platform Engineer</h4>
+          <ul class="list-disc list-inside space-y-2 text-gray-700 dark:text-gray-300">
+            <li>Contributed to AWS serverless infrastructure supporting 160K+ MAU as part of the platform team.</li>
+            <li>
+              Built and led implementation of GitHub sync via webhooks and AWS Lambda which enabled documentations to
+              be sourced from GitHub repository publishing 1k+ pages on every commit.
+            </li>
+            <li>
+              Led development of an AI documentation assistant using OpenAI, LangChain, and Pinecone. Enabled natural
+              language Q&A, summarization, and semantic search across technical content.
+            </li>
+            <li>
+              Designed and contributed to key platform features including newsletter import, documentation export,
+              spam filtering, and notification delivery.
+            </li>
+            <li>
+              Played a key role in migrating the REST APIs to Serverless GraphQL Infra (SST & Apollo on AWS Lambda)
+              serving 130M+ requests per month.
+            </li>
+            <li>
+              Drove documentation strategy for Public GraphQL APIs, implemented SpectaQL-based tooling to streamline
+              updates and improve developer experience.
+            </li>
+            <li>Created CI/CD pipelines to streamline development and improve DX.</li>
+            <li>Set up unit testing for GraphQL and AWS infrastructure using Jest, boosting code reliability.</li>
+            <li>Led mentoring and onboarding of 5+ engineers to ensure swift and effective team integration.</li>
+          </ul>
+        </div>
+
+        <!-- Mobile App Lead -->
+        <div class="mb-4">
+          <h4 class="text-lg font-semibold mb-2 !mt-0 !mb-2">Mobile App Lead</h4>
+          <ul class="list-disc list-inside space-y-2 text-gray-700 dark:text-gray-300">
+            <li>
+              Led the development and shipped Hashnode's React Native app from scratch (50K MAUs), supporting
+              deep-linked auth flows.
+            </li>
+            <li>
+              Implemented CI/CD pipelines, analytics, versioning, and complex UX animations (36% rating improvement).
+            </li>
+            <li>Established TDD workflows reducing crash reports by 60%.</li>
+          </ul>
+        </div>
+
+        <!-- Full Stack Developer -->
+        <div class="mb-4">
+          <h4 class="text-lg font-semibold mb-2 !mt-0 !mb-2">Full Stack Developer</h4>
+          <ul class="list-disc list-inside space-y-2 text-gray-700 dark:text-gray-300">
+            <li>
+              Contributed significantly to the major overhaul of Hashnode, migrating legacy code resulting in improved
+              site performance, reduced technical debt, and optimized development efficiency.
+            </li>
+            <li>
+              Led the development of a co-author feature allowing users to add multiple contributors to their
+              articles.
+            </li>
+            <li>
+              Delivered major features like newsletter import/export, analytics dashboard, and community widgets.
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Sheevoot Experience -->
+      <div class="mb-6">
+        <div class="flex justify-between items-center mb-2">
+          <h3 class="text-xl font-semibold !mt-0 !mb-0">Sheevoot Int Pvt. Ltd.</h3>
+          <span class="text-base text-gray-500">Oct 2018 – Feb 2020</span>
+        </div>
+        <p class="text-lg text-blue-600 dark:text-blue-400 mb-4 !mt-0 !mb-4">Bengaluru, Karnataka</p>
+        <div>
+          <h4 class="text-lg font-semibold mb-2 !mt-0 !mb-2">Mobile Application Engineer</h4>
+          <ul class="list-disc list-inside space-y-2 text-gray-700 dark:text-gray-300">
+            <li>
+              Led end-to-end design and development of the Easebuoy app, a pilot project deployed in Bengaluru and
+              Indore, contributing to overall product launch success.
+            </li>
+            <li>
+              Developed core app features including ride booking, food delivery, pickup-drop services, and car wash
+              bookings, enhancing user convenience and engagement.
+            </li>
+            <li>Used React Native frontend and PHP/MySQL backend stack; supported 10K+ MAUs.</li>
+            <li>
+              Built multiple vendor-facing apps for operations (order management, logistics, delivery tracking, ride
+              management).
+            </li>
+            <li>
+              Integrated Google Maps/Directions APIs and conducted A/B testing with 100+ drivers and 200+ vendors.
+            </li>
+            <li>
+              Collaborated with cross-functional stakeholders on roadmap planning, release cycles, app design, feature
+              enhancements, and marketing strategies, ensuring alignment with business goals.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Other Notable Contributions -->
+    <section class="mb-8">
+      <h2 class="text-2xl font-bold mb-6 border-b border-gray-300 dark:border-gray-600 pb-2 !mt-0 !mb-6">
+        Other Notable Contributions
+      </h2>
+      <ul class="list-disc list-inside space-y-3 text-gray-700 dark:text-gray-300">
+        <li>
+          Built a cross-platform reusable component library and design system for react-native to speed up the
+          development process. The project is open-source and here is the link to the GitHub repo.
+        </li>
+        <li>
+          Published author on multiple publications like Hashnode, Digital Ocean, LogRocket, Soshace, and
+          Alligator.io.
+        </li>
+      </ul>
+    </section>
+
+    <!-- Education -->
+    <section class="mb-8">
+      <h2 class="text-2xl font-bold mb-6 border-b border-gray-300 dark:border-gray-600 pb-2 !mt-0 !mb-6">
+        Education
+      </h2>
+      <div class="flex justify-between items-center mb-2">
+        <h3 class="text-xl font-semibold !mt-0 !mb-0">Dr APJ Abdul Kalam Technical University</h3>
+        <span class="text-base text-gray-500">April 2014 - May 2018</span>
+      </div>
+      <p class="text-lg text-blue-600 dark:text-blue-400 mb-2 !mt-0 !mb-2">Lucknow, U.P.</p>
+      <p class="text-gray-700 dark:text-gray-300">
+        B.Tech (Computer Science) – Top 3 academic rank in a cohort of 80+ students.
+      </p>
+    </section>
+
+    <!-- Download Section -->
+    <section class="text-center mt-12 pt-8 border-t border-gray-300 dark:border-gray-600">
+      <p class="text-gray-600 dark:text-gray-400 mb-4">Download this CV as PDF</p>
+      <a
+        href="/cv.pdf"
+        download
+        class="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium transition-colors"
+      >
+        <i class="i-ri-download-line"></i>
+        Download CV (PDF)
+      </a>
+    </section>
+  </article></BaseLayout
+>

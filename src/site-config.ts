@@ -50,6 +50,10 @@ export const siteConfig = {
         text: 'Projects',
         href: '/projects',
       },
+      {
+        text: 'CV',
+        href: '/cv',
+      },
     ],
   },
   page: {
