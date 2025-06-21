@@ -7,6 +7,14 @@ export function sortPostsByDate(itemA: CollectionPosts, itemB: CollectionPosts) 
 
 export async function getPosts(path?: string, collection: PostKey = 'blog') {
   return (await getCollection(collection, (post) => {
-    return (import.meta.env.PROD ? post.data.draft !== true : true) && (path ? post.slug.includes(path) : true)
+    const isDraft = import.meta.env.PROD ? post.data.draft !== true : true
+
+    // If no path is provided (main blog page), exclude notes and talks
+    if (!path) {
+      return isDraft && !post.slug.includes('notes/') && !post.slug.includes('talks/')
+    }
+
+    // If path is provided, filter by the specific path
+    return isDraft && post.slug.includes(path)
   })).sort(sortPostsByDate)
 }
