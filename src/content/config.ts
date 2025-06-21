@@ -18,12 +18,14 @@ const blog = defineCollection({
     title: z.string(),
     description: z.string().optional(),
     duration: z.string().optional(),
-    image: z
-      .object({
-        src: z.string(),
-        alt: z.string(),
-      })
-      .optional(),
+    cover: z.string().optional().transform((val) => {
+      if (!val)
+        return undefined
+      return {
+        src: val,
+        alt: '',
+      }
+    }),
     date: z
       .string()
       .or(z.date())
