@@ -1,11 +1,11 @@
 export const siteConfig = {
   author: 'Shad Mirza',
-  title: 'Shad Mirza - Senior Software Engineer',
-  subtitle: 'Senior Software Engineer • Full-Stack Development & AWS',
-  description: 'Shad Mirza is a Senior Software Engineer with 6.5+ years of experience in full-stack development, specializing in AWS, GraphQL, React/React Native, and building scalable systems at Hashnode.',
+  title: 'Shad Mirza - Full-Stack Engineer',
+  subtitle: 'Full-Stack Engineer',
+  description: 'Full-Stack Engineer specializing in scalable systems powered by AWS, GraphQL, and React/React-Native.',
   image: {
     src: '/hero.jpg',
-    alt: 'Shad Mirza - Senior Software Engineer',
+    alt: 'Shad Mirza - Full-Stack Engineer',
   },
   email: 'iamshadmirza@gmail.com',
   socialLinks: [
@@ -30,26 +30,26 @@ export const siteConfig = {
   ],
   header: {
     logo: {
-      src: '/favicon.svg',
-      alt: 'Logo Image',
+      src: '/me.jpg',
+      alt: 'Shad\'s profile picture',
     },
     navLinks: [
       {
         text: 'Blog',
         href: '/blog',
       },
-      {
-        text: 'Notes',
-        href: '/blog/notes',
-      },
-      {
-        text: 'Talks',
-        href: '/blog/talks',
-      },
-      {
-        text: 'Projects',
-        href: '/projects',
-      },
+      // {
+      //   text: 'Notes',
+      //   href: '/blog/notes',
+      // },
+      // {
+      //   text: 'Talks',
+      //   href: '/blog/talks',
+      // },
+      // {
+      //   text: 'Projects',
+      //   href: '/projects',
+      // },
       {
         text: 'CV',
         href: '/cv',
@@ -62,14 +62,14 @@ export const siteConfig = {
         text: 'Blog',
         href: '/blog',
       },
-      {
-        text: 'Notes',
-        href: '/blog/notes',
-      },
-      {
-        text: 'Talks',
-        href: '/blog/talks',
-      },
+      // {
+      //   text: 'Notes',
+      //   href: '/blog/notes',
+      // },
+      // {
+      //   text: 'Talks',
+      //   href: '/blog/talks',
+      // },
     ],
   },
   footer: {
