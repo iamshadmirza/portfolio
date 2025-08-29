@@ -2,7 +2,7 @@ export const siteConfig = {
   author: 'Shad Mirza',
   title: 'Shad Mirza - Full-Stack Engineer',
   subtitle: 'Full-Stack Engineer',
-  description: 'Full-Stack Engineer specializing in scalable systems powered by AWS, GraphQL, and React/React-Native.',
+  description: 'Full-Stack Engineer specializing in building scalable systems powered by AWS, GraphQL, and React/React-Native.',
   image: {
     src: '/hero.jpg',
     alt: 'Shad Mirza - Full-Stack Engineer',
