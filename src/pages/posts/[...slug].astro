@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '@/layouts/BaseLayout.astro'
+import { Picture } from 'astro:assets'
 import { type CollectionPosts } from '@/types'
 import { getPosts } from '@/utils/posts'
 
@@ -35,13 +36,7 @@ function getDate(date: string) {
       {duration && <span>· {duration}</span>}
       {tag && <span>· {tag}</span>}
     </p>
-    {
-      cover && (
-        <p>
-          <img width="640" height="360" src={cover.src} alt={cover.alt || ''} />
-        </p>
-      )
-    }
+    {cover && <Picture width="640" height="360" src={cover.src} alt={cover.alt || ''} class="relative bg-gray-300" />}
     <Content />
   </article>
 </BaseLayout>
