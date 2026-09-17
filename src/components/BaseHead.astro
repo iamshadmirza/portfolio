@@ -23,7 +23,9 @@ const resolvedImage = image?.src
     }
   : undefined
 
-const canonicalURL = canonical || new URL(Astro.request.url, Astro.site).toString()
+// Share crawlers (LinkedIn) follow og:url; keep it on the real page, not stale Hashnode paths
+const pageURL = new URL(Astro.url.pathname, Astro.site).toString()
+const canonicalURL = canonical || pageURL
 
 function formatCanonicalURL(url: string | URL) {
   const path = url.toString()
@@ -50,7 +52,7 @@ function formatCanonicalURL(url: string | URL) {
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content={pageType} />
-<meta property="og:url" content={formatCanonicalURL(canonicalURL)} />
+<meta property="og:url" content={formatCanonicalURL(pageURL)} />
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
 {resolvedImage?.src && <meta property="og:image" content={resolvedImage.src} />}
@@ -58,7 +60,7 @@ function formatCanonicalURL(url: string | URL) {
 
 <!-- X / Twitter -->
 <meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:url" content={formatCanonicalURL(canonicalURL)} />
+<meta property="twitter:url" content={formatCanonicalURL(pageURL)} />
 <meta property="twitter:title" content={title} />
 <meta property="twitter:description" content={description} />
 {resolvedImage?.src && <meta property="twitter:image" content={resolvedImage.src} />}

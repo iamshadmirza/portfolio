@@ -3,7 +3,7 @@ title: "We Were Writing One-Pagers. Nobody Was Reading Them."
 description: "I built to-onepager, a Cursor skill that turns research and decision chats into short, typed one-pagers and publishes them where your team already reads."
 date: 2026-09-17
 tag: cursor, skills, knowledge-sharing, writing
-canonical: https://iamshadmirza.com/to-onepager
+canonical: https://iamshadmirza.com/posts/to-onepager
 ---
 
 Our team already shared one-pagers for findings, knowledge dumps, and proposals. That was not the problem.
