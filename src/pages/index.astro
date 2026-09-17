@@ -6,107 +6,114 @@ import siteConfig from '@/site-config'
 <BaseLayout description={siteConfig.description}>
   <article class="prose">
     <h1 class="text-title">Hi, I'm Shad Mirza</h1>
-    <p class="text-xl text-gray-600 dark:text-gray-400">
-      Full-Stack Engineer • ~7 years of experience • AWS/GraphQL/React
+    <p class="text-xl text-gray-600 dark:text-gray-400">Senior Software Engineer • DigitalOcean GenAI • ~8 years</p>
+
+    <p>
+      I build AI platform surfaces, observability, and agent-quality systems at DigitalOcean. Before that I spent years
+      shipping high-scale product and mobile at Hashnode (130M+ monthly API requests, 160K+ MAUs).
     </p>
 
     <p>
-      I'm a passionate full-stack engineer with expertise in building high-scale systems, mobile/web platforms, and
-      serverless cloud infrastructure. I specialize in AWS, GraphQL, and React/React Native, with a proven track record
-      of building scalable systems at Hashnode (130M+ monthly API requests, 160K+ MAUs).
-    </p>
-
-    <p>
-      <img width="640" height="360" src="/hero.jpg" alt="Shad Mirza - Full-Stack Engineer" />
+      <img width="640" height="360" src="/hero.jpg" alt="Shad Mirza - Senior Software Engineer" />
     </p>
 
     <h2>What I Do</h2>
-    <p>I focus on delivering high-quality solutions through:</p>
     <ul>
       <li>
-        <strong>Technical Excellence:</strong> Building scalable systems with AWS serverless architecture, GraphQL APIs,
-        and React/React Native applications
+        <strong>GenAI platform:</strong> Product APIs, day-0 model launches, and batch inference for builders on DigitalOcean
       </li>
       <li>
-        <strong>Problem Solving:</strong> Migrating legacy systems, improving performance, and reducing technical debt
+        <strong>Observability:</strong> OpenTelemetry across GenAI clusters, customer metrics/logs under load, and playbooks
+        other teams can run without me
       </li>
       <li>
-        <strong>Collaboration:</strong> Mentoring engineers, leading cross-functional teams, and contributing to open-source
-        projects
+        <strong>Agent systems:</strong> Agent feedback, evaluation loops, and tooling that help teams measure quality
       </li>
       <li>
-        <strong>Innovation:</strong> Implementing AI-powered features, CI/CD pipelines, and modern development practices
+        <strong>Reusable DX:</strong> Cursor skills and short written docs that turn hard-won ops knowledge into self-serve
+        defaults
+      </li>
+    </ul>
+
+    <h2>Selected Impact</h2>
+    <ul>
+      <li>
+        Shipped day-one Claude and OpenAI model integrations within hours of public announcement, matching top-tier
+        cloud time-to-market
+      </li>
+      <li>
+        Architected Unified Batch Inference; built the API server, migration, and LiteLLM proxy integration to rescue an
+        at-risk launch, and wrote the
+        <a href="https://www.digitalocean.com/blog/introducing-batch-inference" target="_blank"
+          >DigitalOcean launch post</a
+        >
+      </li>
+      <li>
+        Built GenAI observability from scratch (OpenTelemetry across clusters, customer metrics/logs), including fixing
+        collector OOMs by tuning batches from 10,000 to 1,000 with memory limiters and retries
+      </li>
+      <li>
+        Turned multi-hour ops setup into self-serve Cursor skills and playbooks other teams run without me; open-sourced
+        <a href="https://github.com/iamshadmirza/to-onepager" target="_blank">to-onepager</a>
       </li>
     </ul>
 
     <h2>My Expertise</h2>
-    <p>Here are the key areas where I excel:</p>
     <ul>
       <li>
-        <strong>Full Stack Development:</strong> TypeScript, Node.js, Express, REST APIs, GraphQL, Redux, MobX, Next.js,
-        React.js, React Native
-      </li>
-      <li><strong>Backend & Databases:</strong> MongoDB, Redis, PostgreSQL</li>
-      <li>
-        <strong>Cloud & Infrastructure:</strong> AWS (Lambda, API Gateway, Step Functions, EventBridge, S3, EC2, SQS, SNS),
-        Serverless Architecture, Infrastructure as Code (SST, AWS CDK)
+        <strong>Platform & APIs:</strong> TypeScript, Go, Node.js, GraphQL, REST, serverless and service-oriented designs
       </li>
       <li>
-        <strong>Tools & Practices:</strong> CI/CD, TDD, Jest, Cypress, TailwindCSS, Styled Components
+        <strong>AI platform:</strong> Inference APIs, batch jobs, proxy/auth boundaries, agent feedback and evaluation loops
+      </li>
+      <li>
+        <strong>Cloud & ops:</strong> Kubernetes/DOKS, OpenTelemetry, AWS (Lambda, API Gateway, Step Functions, EventBridge,
+        S3, SQS/SNS), Infrastructure as Code (SST, CDK)
+      </li>
+      <li>
+        <strong>Product surfaces:</strong> React, React Native, Next.js, CI/CD, TDD
       </li>
     </ul>
 
     <h2>Recent Experience</h2>
     <p>
-      Currently working as a <strong>Senior Software Engineer</strong> at <strong>Hashnode</strong>, where I've
-      contributed to AWS serverless infrastructure supporting 160K+ MAUs and built GitHub sync via webhooks + Lambda
-      (auto-published 1k+ docs). I also developed an AI documentation assistant using OpenAI, LangChain, and Pinecone,
-      and migrated REST to Serverless GraphQL handling 130M+ requests/month.
+      Currently a <strong>Senior Software Engineer</strong> at DigitalOcean GenAI (since Nov 2025): AI Platform first, then
+      agent feedback and evaluation. I ship platform APIs customers can use on day one, make GenAI clusters observable under
+      load, and build the loops that measure agent quality.
     </p>
 
     <p>
-      As the <strong>Mobile App Lead</strong>, I built Hashnode's React Native app from scratch (50K MAUs), implemented
-      deep-linked auth, CI/CD, analytics, and complex animations (boosted rating by 36%). I reduced crash reports by 60%
-      through TDD workflows and mentored 5+ engineers.
+      Previously at <strong>Hashnode</strong> as Platform Engineer and Mobile App Lead: AWS serverless GraphQL (130M+ requests/month),
+      GitHub-synced docs, an AI documentation assistant (OpenAI, LangChain, Pinecone), and a React Native app built from
+      scratch (50K MAUs, 36% rating lift, 60% fewer crash reports). Mentored 5+ engineers.
     </p>
 
     <p>
-      Previously, I worked at <strong>Sheevoot Int Pvt. Ltd.</strong> as a Mobile Application Engineer, where I designed
-      and developed the Easebuoy app (ride/food/car wash services) with 10K+ MAUs, integrating Google Maps/Directions APIs
-      and running A/B tests with 100+ drivers/200+ vendors.
+      Earlier at <strong>Sheevoot Int Pvt. Ltd.</strong> as a Mobile Application Engineer on Easebuoy (ride/food/car wash),
+      supporting 10K+ MAUs with Maps integrations and vendor ops apps.
     </p>
 
     <h2>Open Source & Writing</h2>
-    <p>
-      I'm passionate about sharing knowledge and contributing to the developer community. I've created a reusable <a
-        href="https://github.com/iamshadmirza/react-native-design-system"
-        target="_blank">React Native component library & design system</a
-      >
-      and authored technical blogs for:
-    </p>
+    <p>I write and ship tools when a pattern repeats. Highlights:</p>
     <ul>
       <li>
-        <a href="https://engineering.hashnode.com/" target="_blank">Hashnode Engineering</a>
+        <a href="https://github.com/iamshadmirza/to-onepager" target="_blank">to-onepager</a> (Cursor skill for grounded
+        one-pagers)
       </li>
       <li>
-        <a href="https://www.digitalocean.com/community/tutorials/react-mobx-react-native-simplified" target="_blank"
-          >DigitalOcean</a
+        <a href="https://github.com/iamshadmirza/react-native-design-system" target="_blank"
+          >React Native design system</a
         >
       </li>
       <li>
-        <a href="https://blog.logrocket.com/react-native-draggable-flatlist/" target="_blank">LogRocket</a>
+        Writing for
+        <a href="https://www.digitalocean.com/blog/introducing-batch-inference" target="_blank">DigitalOcean</a>,
+        <a href="https://engineering.hashnode.com/" target="_blank">Hashnode Engineering</a>,
+        <a href="https://blog.logrocket.com/react-native-draggable-flatlist/" target="_blank">LogRocket</a>,
+        <a href="https://soshace.com/author/iamshadmirza/" target="_blank">Soshace</a>, and
+        <a href="https://alligator.io" target="_blank">Alligator.io</a>
       </li>
-      <li>
-        <a href="https://soshace.com/author/iamshadmirza/" target="_blank">Soshace</a>
-      </li>
-      <li><a href="https://alligator.io" target="_blank">Alligator.io</a></li>
     </ul>
-
-    <p>
-      I'm always excited to take on new challenges and collaborate on interesting projects. Whether it's building
-      scalable applications, optimizing performance, mentoring teams, or contributing to open-source projects, I'm
-      passionate about creating solutions that drive business value.
-    </p>
 
     <hr class="hr-line" />
 
@@ -124,8 +131,7 @@ import siteConfig from '@/site-config'
     </p>
 
     <p>
-      If you'd like to discuss potential collaborations, opportunities, or just want to say hello, feel free to reach
-      out at
+      For collaborations, opportunities, or a hello, email
       <a prose-link aria-label={siteConfig.email} href={`mailto:${siteConfig.email}`}>
         {siteConfig.email}
       </a>.

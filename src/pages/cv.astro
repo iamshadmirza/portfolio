@@ -3,13 +3,18 @@ import BaseLayout from '@/layouts/BaseLayout.astro'
 import siteConfig from '@/site-config'
 ---
 
-<BaseLayout title="CV - Shad Mirza" description="Professional CV and resume of Shad Mirza - Senior Software Engineer">
+<BaseLayout
+  title="CV - Shad Mirza"
+  description="Professional CV of Shad Mirza - Senior Software Engineer at DigitalOcean GenAI"
+>
   <article class="prose max-w-4xl">
     <!-- Header Section -->
     <div class="text-center mb-12">
       <h1 class="text-4xl font-bold mb-4">Shad Mirza</h1>
       <p class="text-xl text-gray-600 dark:text-gray-400 mb-2">Senior Software Engineer</p>
-      <p class="text-lg text-gray-500 dark:text-gray-500 mb-4">Full-Stack Development & AWS Specialist</p>
+      <p class="text-lg text-gray-500 dark:text-gray-500 mb-4">
+        DigitalOcean GenAI • AI platforms, observability, agent systems
+      </p>
 
       <!-- Contact Information -->
       <div class="flex flex-wrap justify-center gap-6 text-sm">
@@ -44,10 +49,11 @@ import siteConfig from '@/site-config'
     <section class="mb-8">
       <h2 class="text-2xl font-bold mb-4 border-b border-gray-300 dark:border-gray-600 pb-2 !mt-0 !mb-4">Summary</h2>
       <p class="text-lg leading-relaxed">
-        Full-stack engineer with 6.5 years of experience across high-scale systems, mobile/web platforms, and serverless
-        cloud infrastructure. Specialized in AWS, GraphQL, and React/React Native. Proven track record of building
-        scalable systems at Hashnode (130M+ monthly API requests, 160K+ MAUs). Strong focus on code quality, CI/CD,
-        mentoring, and cross-functional collaboration.
+        Senior Software Engineer at DigitalOcean GenAI (Nov 2025 – Present) with ~8 years across AI platforms,
+        observability, and high-scale product. Currently on agent feedback and evaluation systems; previously AI
+        Platform: day-0 model launches, Unified Batch Inference, and OpenTelemetry/customer metrics from scratch. Before
+        that, platform and mobile at Hashnode (130M+ monthly API requests, 160K+ MAUs). Strong focus on ownership,
+        reusable tooling, and cross-team delivery.
       </p>
     </section>
 
@@ -63,10 +69,9 @@ import siteConfig from '@/site-config'
           <ul class="list-disc list-inside space-y-1 text-gray-700 dark:text-gray-300">
             <li>React.js & React Native</li>
             <li>TypeScript & JavaScript</li>
-            <li>Next.js & Vue.js</li>
+            <li>Next.js</li>
             <li>Redux, MobX, Context API</li>
             <li>TailwindCSS, Styled Components</li>
-            <li>HTML5, CSS3, SASS</li>
           </ul>
         </div>
 
@@ -74,35 +79,35 @@ import siteConfig from '@/site-config'
           <h3 class="text-lg font-semibold mb-3 !mt-0 !mb-3">Backend & APIs</h3>
           <ul class="list-disc list-inside space-y-1 text-gray-700 dark:text-gray-300">
             <li>Node.js & Express.js</li>
+            <li>Go</li>
             <li>GraphQL & REST APIs</li>
+            <li>Inference / batch job APIs</li>
             <li>MongoDB, Redis, PostgreSQL</li>
-            <li>Serverless Architecture</li>
-            <li>Microservices</li>
-            <li>WebSocket & Socket.io</li>
+            <li>Serverless & microservices</li>
           </ul>
         </div>
 
         <div>
           <h3 class="text-lg font-semibold mb-3 !mt-0 !mb-3">Cloud & Infrastructure</h3>
           <ul class="list-disc list-inside space-y-1 text-gray-700 dark:text-gray-300">
+            <li>Kubernetes / DOKS</li>
+            <li>OpenTelemetry & customer metrics/logs</li>
             <li>AWS (Lambda, API Gateway, Step Functions)</li>
             <li>AWS (EventBridge, S3, EC2, SQS, SNS)</li>
             <li>Infrastructure as Code (SST, AWS CDK)</li>
             <li>CI/CD Pipelines</li>
-            <li>Docker & Kubernetes</li>
-            <li>Serverless Framework</li>
           </ul>
         </div>
 
         <div>
-          <h3 class="text-lg font-semibold mb-3 !mt-0 !mb-3">Testing & Tools</h3>
+          <h3 class="text-lg font-semibold mb-3 !mt-0 !mb-3">AI, Agents & Quality</h3>
           <ul class="list-disc list-inside space-y-1 text-gray-700 dark:text-gray-300">
-            <li>Jest, React Testing Library</li>
-            <li>Cypress, Playwright</li>
-            <li>TDD & BDD Practices</li>
-            <li>Git & GitHub</li>
-            <li>VS Code, WebStorm</li>
-            <li>Postman, Insomnia</li>
+            <li>GenAI platform APIs & model launches</li>
+            <li>Agent feedback / evaluation loops</li>
+            <li>Cursor skills & agent DX</li>
+            <li>Jest & React Testing Library</li>
+            <li>Cypress & Playwright</li>
+            <li>TDD practices</li>
           </ul>
         </div>
       </div>
@@ -114,13 +119,79 @@ import siteConfig from '@/site-config'
         Professional Experience
       </h2>
 
+      <!-- DigitalOcean Experience -->
+      <div class="mb-8 pb-6 border-b border-gray-300 dark:border-gray-600">
+        <div class="flex justify-between items-center mb-2">
+          <h3 class="text-xl font-semibold !mt-0 !mb-0">DigitalOcean (Remote)</h3>
+          <span class="text-base text-gray-500">Nov 2025 – Present</span>
+        </div>
+        <p class="text-lg text-blue-600 dark:text-blue-400 mb-4 !mt-0 !mb-4">Senior Software Engineer • GenAI</p>
+
+        <div class="mb-4">
+          <h4 class="text-lg font-semibold mb-2 !mt-0 !mb-2">Agent feedback & evaluation (current)</h4>
+          <ul class="list-disc list-inside space-y-2 text-gray-700 dark:text-gray-300">
+            <li>
+              Building systems for agent feedback and evaluation: quality signals, tooling, and services that help teams
+              measure and improve agent behavior.
+            </li>
+            <li>
+              Carrying observability learnings into new work: treat telemetry and failure handling as first-class
+              requirements, design for load/backpressure early, and lock auth/access paths before re-platforming.
+            </li>
+            <li>
+              Introduced documentation-first discovery so teams align on written findings before implementation
+              diverges.
+            </li>
+          </ul>
+        </div>
+
+        <div class="mb-4">
+          <h4 class="text-lg font-semibold mb-2 !mt-0 !mb-2">AI Platform</h4>
+          <ul class="list-disc list-inside space-y-2 text-gray-700 dark:text-gray-300">
+            <li>
+              Shipped day-one API integrations for major Claude and OpenAI model launches within hours of public
+              announcement, matching top-tier cloud providers on time-to-market.
+            </li>
+            <li>
+              Architected and led Unified Batch Inference; built the API server, ran the data migration, integrated the
+              LiteLLM inference proxy, and added JWT auth in a single day to rescue an at-risk launch. Authored the
+              official
+              <a href="https://www.digitalocean.com/blog/introducing-batch-inference" target="_blank"
+                >DigitalOcean launch post</a
+              >.
+            </li>
+            <li>
+              Rewrote a third-party AI integration for security review, added concurrency rate limiting, and migrated
+              from polling to webhooks for real-time customer status updates.
+            </li>
+            <li>
+              Established GenAI observability from scratch: OpenTelemetry collectors across Kubernetes/DOKS clusters
+              with no prior docs; migrated the org off scattered personal logging and helped sunset a legacy control
+              plane that was a single point of failure.
+            </li>
+            <li>
+              Built customer-facing metrics/logs paths from the ground up (foundational RFC); resolved 7+ PR cycles of
+              blockers (protocol mismatches, broken log routing, collector OOMs). Tuned batch sizes from 10,000 to 1,000
+              with custom memory limiters and retries.
+            </li>
+            <li>
+              Built Cursor skills and playbooks that turned multi-hour OTel/metrics setup into self-serve work for other
+              teams; used the same tooling to fix misaligned collector configs across 11 clusters in a day. Wrote Batch
+              Inference OnCall debugging runbooks.
+            </li>
+          </ul>
+        </div>
+      </div>
+
       <!-- Hashnode Experience -->
       <div class="mb-8 pb-6 border-b border-gray-300 dark:border-gray-600">
         <div class="flex justify-between items-center mb-2">
           <h3 class="text-xl font-semibold !mt-0 !mb-0">Hashnode (Remote)</h3>
-          <span class="text-base text-gray-500">Feb 2020 – Present</span>
+          <span class="text-base text-gray-500">Feb 2020 – Nov 2025</span>
         </div>
-        <p class="text-lg text-blue-600 dark:text-blue-400 mb-4 !mt-0 !mb-4">Bengaluru, Karnataka</p>
+        <p class="text-lg text-blue-600 dark:text-blue-400 mb-4 !mt-0 !mb-4">
+          Platform & Mobile • Bengaluru, Karnataka
+        </p>
 
         <!-- Platform Engineer -->
         <div class="mb-4">
@@ -226,12 +297,15 @@ import siteConfig from '@/site-config'
       </h2>
       <ul class="list-disc list-inside space-y-3 text-gray-700 dark:text-gray-300">
         <li>
-          Built a cross-platform reusable component library and design system for react-native to speed up the
-          development process. The project is open-source and here is the link to the GitHub repo.
+          Built
+          <a href="https://github.com/iamshadmirza/to-onepager" target="_blank">to-onepager</a>, a Cursor skill that
+          turns research and decision chats into short, grounded one-pagers and publishes them where teams already read.
         </li>
         <li>
-          Published author on multiple publications like Hashnode, Digital Ocean, LogRocket, Soshace, and Alligator.io.
+          Built a cross-platform reusable component library and design system for React Native (
+          <a href="https://github.com/iamshadmirza/react-native-design-system" target="_blank">RNDS</a>).
         </li>
+        <li>Published author on DigitalOcean, Hashnode Engineering, LogRocket, Soshace, and Alligator.io.</li>
       </ul>
     </section>
 

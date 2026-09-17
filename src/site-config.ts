@@ -1,11 +1,12 @@
 export const siteConfig = {
   author: 'Shad Mirza',
-  title: 'Shad Mirza - Full-Stack Engineer',
-  subtitle: 'Full-Stack Engineer',
-  description: 'Full-Stack Engineer specializing in building scalable systems powered by AWS, GraphQL, and React/React-Native.',
+  title: 'Shad Mirza - Senior Software Engineer',
+  subtitle: 'Senior Software Engineer',
+  description:
+    'Senior Software Engineer at DigitalOcean GenAI. AI platforms, observability, agent systems, and previously high-scale product at Hashnode.',
   image: {
     src: '/hero.jpg',
-    alt: 'Shad Mirza - Full-Stack Engineer',
+    alt: 'Shad Mirza - Senior Software Engineer',
   },
   email: 'iamshadmirza@gmail.com',
   socialLinks: [
@@ -53,6 +54,10 @@ export const siteConfig = {
       {
         text: 'CV',
         href: '/cv',
+      },
+      {
+        text: 'Uses',
+        href: '/uses',
       },
     ],
   },
